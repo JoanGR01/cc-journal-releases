@@ -7,7 +7,10 @@ todo se guarda en tu propia computadora, sin cuentas ni servidores.
 
 **[⬇️ Descargar CC Journal (portable, Windows 64-bit)](https://github.com/TheLordJoan/cc-journal-releases/releases/latest)**
 
-En la página de la última versión, baja el archivo `CC-Journal-1.0.0-portable.exe`.
+Ese link siempre lleva a la última versión, así que sirve para siempre: cuando
+salga una nueva, el mismo enlace la trae.
+
+En la página de la última versión, baja el archivo `CC-Journal-1.1.0-portable.exe`.
 
 ## Cómo usarlo
 
