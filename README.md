@@ -1,36 +1,58 @@
-# CC Journal — descargas
+# WICK — descargas
 
-Journal de trading de futuros MNQ. App de escritorio para Windows, local-first:
+Diario de trading de futuros MNQ, screener de value investing y control de
+finanzas personales. Aplicación de escritorio para Windows, **local-first**:
 todo se guarda en tu propia computadora, sin cuentas ni servidores.
 
 ## Descargar
 
-**[⬇️ Descargar CC Journal (portable, Windows 64-bit)](https://github.com/TheLordJoan/cc-journal-releases/releases/latest)**
+**[⬇️ Descargar WICK para Windows](https://github.com/JoanGR01/cc-journal-releases/releases/latest/download/CC-Journal-Setup.exe)**
 
-Ese link siempre lleva a la última versión, así que sirve para siempre: cuando
-salga una nueva, el mismo enlace la trae.
+Ese link siempre trae la última versión. Sirve para siempre: cuando salga una
+nueva, el mismo enlace la descarga.
 
-En la página de la última versión, baja el archivo `CC-Journal-1.1.0-portable.exe`.
+> El archivo conserva su nombre técnico anterior (`CC-Journal-Setup.exe`) para
+> que el link nunca cambie. El programa que instala se llama WICK.
 
-## Cómo usarlo
+## Instalar
 
-1. Guarda el `.exe` donde quieras (Escritorio, Descargas, una USB — da igual).
-2. Doble click. No hay instalación, no pide permisos de administrador.
-3. La primera vez Windows SmartScreen puede avisar que es de un editor
-   desconocido: **Más información → Ejecutar de todas formas**. Pasa porque el
-   ejecutable no está firmado con un certificado de pago, no porque haya algo raro.
+1. Ejecuta el archivo descargado. Se instala solo, sin pedir permisos de
+   administrador.
+2. La primera vez Windows puede avisar que es de un editor desconocido:
+   **Más información → Ejecutar de todas formas**. Pasa porque el instalador no
+   está firmado con un certificado de pago, no porque haya algo raro.
+3. Para actualizar, instala la versión nueva encima de la anterior. **Tus datos
+   no se tocan.**
+
+## Qué trae
+
+- **Diario de trading** — cada operación con su captura del gráfico, tu estado
+  emocional antes, durante y después, y el setup que usaste.
+- **Tarjeta compartible** — cualquier operación se convierte en una imagen
+  lista para compartir, con el resultado, el gráfico y tus notas.
+- **Estadísticas y calendario** — P&L por día, por semana y por setup.
+- **Cuentas de fondeo** — evaluación y fondeada, con sus reglas de retiro.
+- **VI Screener** — una acción medida contra siete principios de value
+  investing, y una lista de diez que los cumplen hoy.
+- **Finanzas personales** — cuentas, presupuestos y transacciones, con
+  sincronización cifrada entre dos computadoras.
 
 ## Dónde quedan tus datos
 
-El journal se guarda en `%APPDATA%\CC Journal\journal.sqlite`. Sigue ahí aunque
-muevas o borres el `.exe`, y cada computadora tiene su propio journal.
+En `%APPDATA%\cc-journal` de tu computadora. Ahí siguen aunque desinstales o
+actualices, y cada computadora tiene los suyos.
+
+No hay cuenta que crear, no hay servidor que guarde nada, y no se envía nada a
+ningún lado. La sincronización de finanzas, si la activas, viaja cifrada y solo
+entre tus propias computadoras.
 
 ## Datos de mercado
 
-Los precios, fundamentales y estimaciones se leen en vivo de Finviz, Yahoo
-Finance y TipRanks cada vez que abrís la app. No hace falta configurar ninguna
-API key: solo tener internet.
+Los precios, fundamentales y objetivos de analistas se leen en vivo de Finviz y
+Yahoo Finance. No hacen falta claves ni suscripciones.
 
----
+## Actualizaciones
 
-El código fuente vive en un repo privado; acá solo se publican los ejecutables.
+No se actualiza sola. Cuando haya una versión nueva, descárgala del link de
+arriba e instálala encima. La versión que tienes instalada aparece en la
+esquina superior derecha del programa.
